@@ -1,14 +1,17 @@
 # Site settings
-title: Twenty Blog
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: Laura Wilson
+author: 
+  name: Laura Wilson
+  job: Developer and Self-Appointed Head of Happiness at Movebubble
+  bio: I'm a woman in tech, sometimes Codebar coach, and lover of good coffee
+email: ""
+description: Laura Wilson - Web Developer. Portfolio and Blog.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://locahost:4000" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://localhost:4000" # the base hostname & protocol for your site
+twitter_username: wilslau
+github_username:  lsewilson
+linkedin_username: laurasewilson
+instagram_username: laurasewilson
 
 # Build settings
 markdown: kramdown
