@@ -6,11 +6,11 @@ author:
   other_job: Self-Appointed Head of Happiness
   current_employer: Movebubble
   bio: I'm a woman in tech, sometimes Codebar coach, and lover of good coffee
-  thumb: /assets/profile.png
+  avatar: /assets/profile.png
 email: ""
 description: Laura Wilson - Web Developer. Portfolio and Blog.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://localhost:4000" # the base hostname & protocol for your site
+url: "https://lsewilson.github.io" # the base hostname & protocol for your site
 twitter_username: wilslau
 github_username:  lsewilson
 linkedin_username: laurasewilson
