@@ -23,33 +23,21 @@ paginate: true
             {% endfor %}
         </ul>
     </section>
-    <section class="pagination" >
-        <div class="row">
-            <div class="4u">			
-                <section>
+    <section id="pagination" >
+
                     {% if paginator.previous_page %}
-                        <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+                        <a href="{{ paginator.previous_page_path }}"><span class="icon fa-angle-left"/></a>
                     {% else %}
-                        <span class="previous">Previous</span>
+                        <span class="icon fa-angle-left" style="color: transparent"></span>
                     {% endif %}
-                </section>
-            </div>
-            <div class="4u">			
-                <section>
-                    <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-                </section>
-            </div>
-            <div class="4u">			
-                <section>            
+            
+                    <span class="page_number">{{ paginator.page }} of {{ paginator.total_pages }}</span>
+                   
                     {% if paginator.next_page %}
-                        <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+                        <a href="{{ paginator.next_page_path }}"><span class="icon fa-angle-right"/></a>
                     {% else %}
-                        <span class="next ">Next</span>
+                        <span class="icon fa-angle-right" style="color: transparent" ></span>
                     {% endif %}
-                </section>
-            </div>
-
-
-        </div>
+               
     </section>
 </article>
