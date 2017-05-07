@@ -2,15 +2,7 @@
 layout: post
 title: Learning from My First Hackathon 
 date: 2016-11-19 21:56:35.000000000 +00:00
-type: post
-published: true
-status: publish
-categories:
-- Hackathon
-tags:
-- fintech
-- interest rates
-- zopa
+permalink: /:year/:month/:title
 excerpt_separator: <!--more-->
 ---
 Going to your first hackathon is a bit nerve-wracking. It was for me at least. I had absolutely no idea what to expect. It was an awesome experience, one I hope to repeat soon, but next time I want to be able to use what I learnt to help me get the most out of the next opportunity that comes my way.

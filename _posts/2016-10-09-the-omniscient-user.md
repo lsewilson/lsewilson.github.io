@@ -5,6 +5,7 @@ date: 2016-10-09 19:53:32.000000000 +01:00
 type: post
 published: true
 status: publish
+permalink: /:year/:month/:title
 categories:
 - Makers Academy
 tags:
@@ -18,25 +19,6 @@ tags:
 - users
 - web development
 excerpt_separator: <!--more-->
-
-meta:
-  publicize_twitter_user: laura_wilson19
-  _wpas_done_15483048: '1'
-  _publicize_done_15633698: '1'
-  _publicize_done_external: a:1:{s:7:"twitter";a:1:{i:15483048;s:60:"https://twitter.com/laura_wilson19/status/785206624046551040";}}
-  _rest_api_published: '1'
-  _rest_api_client_id: "-1"
-  _thumbnail_id: '1631'
-  _publicize_job_id: '27677373774'
-  _wpcom_is_markdown: '1'
-author:
-  login: lsewilson
-  email: laurawilson@hotmail.co.uk
-  display_name: Laura
-  first_name: ''
-  last_name: ''
-excerpt: 'How do you create an admin user in Rails? How much power should an admin
-  really have? '
 ---
 <p>This week we were introduced to Ruby on Rails! The magical steam train! The web app framework that you can have up and running in no time! In my makers journey so far, it's probably the closest to magic that I've seen. You wave your wand and hey presto! It's done a bazillion things for you already. Dare I say that was exactly what I didn't like about it to begin with. I felt like I didn't have to do any thinking. I came to realise however that the advantage of Rails is not in finding satisfaction in difficult debugging and planning, but in being able to put together a project quickly and accomplish more in a shorter time frame as a result.</p>
 <p><!--more--></p>

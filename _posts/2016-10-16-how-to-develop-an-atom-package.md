@@ -5,6 +5,7 @@ date: 2016-10-16 16:22:19.000000000 +01:00
 type: post
 published: true
 status: publish
+permalink: /:year/:month/:title
 categories:
 - Guides
 tags:

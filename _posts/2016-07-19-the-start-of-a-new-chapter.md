@@ -3,22 +3,7 @@ layout: post
 title: The Start of a New Chapter
 date: 2016-07-19 15:54:37.000000000 +01:00
 permalink: /the-start-of-a-new-chapter.html
-categories:
-- Makers Academy
-tags:
-- career change
-- coding
-- motivation
 excerpt_separator: <!--more-->
-
-meta:
-  _rest_api_published: '1'
-  _rest_api_client_id: "-1"
-  _publicize_job_id: '24933354265'
-author:
-  display_name: Laura
-  first_name: ''
-  last_name: ''
 ---
 
 It's weird to think that less than 3 weeks ago I had never coded anything in my life and now here I am writing my inaugural blog entry as I start my journey with **[Makers Academy](http://www.makersacademy.com/)**.
