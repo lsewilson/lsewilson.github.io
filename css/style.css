@@ -379,6 +379,13 @@
 			display: none;
 		}
 
+		.icon.fa-angle-left {
+			border: 0;
+		}
+		.icon.fa-angle-right {
+			border: 0;
+		}
+
 /* List */
 
 	ol.default {
@@ -747,6 +754,14 @@
     margin-left: 3em;
 }
 
+
+#pagination {
+	text-align: center;
+}
+
+#pagination a {
+	border: 0;
+}
 /* Dropotron */
 
 	.dropotron {
