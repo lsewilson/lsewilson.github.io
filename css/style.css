@@ -1,4 +1,4 @@
-@import url("font-awesome.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Lato:300,400,900");
 
 /*
@@ -322,12 +322,12 @@
 					background: #7fb7d2;
 				}
 
-			.icon.circle.fa-facebook {
+			.icon.circle.fa-linkedin {
 				background: #7490c3;
 				color: white;
 			}
 
-				.icon.circle.fa-facebook:hover {
+				.icon.circle.fa-linkedin:hover {
 					background: #829bc9;
 				}
 
@@ -349,12 +349,12 @@
 					background: #e1b89b;
 				}
 
-			.icon.circle.fa-dribbble {
+			.icon.circle.fa-instagram {
 				background: #da83ae;
 				color: white;
 			}
 
-				.icon.circle.fa-dribbble:hover {
+				.icon.circle.fa-instagram:hover {
 					background: #df93b8;
 				}
 
@@ -835,8 +835,8 @@
 
 			#banner .inner header {
 				display: inline-block;
-				border-bottom: solid 2px;
-				border-top: solid 2px;
+				/*border-bottom: solid 2px;
+				border-top: solid 2px;*/
 				margin: 0 0 2em 0;
 				padding: 3px 0 3px 0;
 			}
@@ -851,6 +851,15 @@
 					padding-left: 0.05em;
 					position: relative;
 					text-transform: uppercase;
+				}
+
+				#banner .inner header img {
+					border: solid 2px white;
+					border-radius: 100%;
+					height: 7em;
+					width: 7em;
+					position: relative;
+					margin-bottom: 1em;
 				}
 
 			#banner .inner p {

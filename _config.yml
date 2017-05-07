@@ -2,8 +2,11 @@
 title: Laura Wilson
 author: 
   name: Laura Wilson
-  job: Developer and Self-Appointed Head of Happiness at Movebubble
+  job: Web Developer 
+  other_job: Self-Appointed Head of Happiness
+  current_employer: Movebubble
   bio: I'm a woman in tech, sometimes Codebar coach, and lover of good coffee
+  thumb: /assets/profile.png
 email: ""
 description: Laura Wilson - Web Developer. Portfolio and Blog.
 baseurl: "" # the subpath of your site, e.g. /blog/
@@ -15,3 +18,4 @@ instagram_username: laurasewilson
 
 # Build settings
 markdown: kramdown
+post_dirs: false
