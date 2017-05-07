@@ -274,6 +274,10 @@
 				display: block;
 				width: 100%;
 			}
+		.image.text {
+			color: #7c8081;
+			border: 0;
+		}
 
 /* Icon */
 
@@ -605,6 +609,8 @@
 			color: inherit;
 			padding: 4em;
 		}
+	
+
 
 /* Header */
 	@-moz-keyframes reveal-header { 0% { top: -5em; } 100% { top: 0; } }
