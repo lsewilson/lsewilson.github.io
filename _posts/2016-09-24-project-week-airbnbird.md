@@ -14,21 +14,7 @@ tags:
 - project
 - Sequelize
 - teamwork
-meta:
-  _thumbnail_id: '1313'
-  _rest_api_published: '1'
-  _rest_api_client_id: "-1"
-  _publicize_job_id: '27164994165'
-  _publicize_done_external: a:1:{s:7:"twitter";a:1:{i:15483048;s:60:"https://twitter.com/laura_wilson19/status/779680315337867264";}}
-  _publicize_done_15633698: '1'
-  _wpas_done_15483048: '1'
-  publicize_twitter_user: laura_wilson19
-author:
-  login: lsewilson
-  email: laurawilson@hotmail.co.uk
-  display_name: Laura
-  first_name: ''
-  last_name: ''
+excerpt_separator: <!--more-->
 ---
 <p>Week 6 arrived at Makers and finally we started working in groups! I've enjoyed pairing, but now that we've learnt just enough to take on all aspects of web development, working in groups feels so much more efficient. I had a lot of fun this week and was fortunate to be grouped with great coders, who I knew I would enjoy working with.</p>
 <p><strong>The Brief</strong></p>

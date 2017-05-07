@@ -13,29 +13,11 @@ tags:
 - TDD
 - test-driven development
 - testing framework
-meta:
-  _wpcom_is_markdown: '1'
-  _thumbnail_id: '1522'
-  _oembed_1b2560a5b917367ea162ec91926dfa32: "{{unknown}}"
-  _publicize_done_external: a:1:{s:7:"twitter";a:1:{i:15483048;s:60:"https://twitter.com/laura_wilson19/status/780883430422700032";}}
-  _rest_api_published: '1'
-  _rest_api_client_id: "-1"
-  _publicize_job_id: '27275960741'
-  _publicize_done_15633698: '1'
-  _wpas_done_15483048: '1'
-  publicize_twitter_user: laura_wilson19
-  _oembed_70bac98f2ee3080d0c8a553dae79ed2b: "{{unknown}}"
-  _oembed_76a10b0429fc13b80066a69da960949d: "{{unknown}}"
-author:
-  login: lsewilson
-  email: laurawilson@hotmail.co.uk
-  display_name: Laura
-  first_name: ''
-  last_name: ''
+excerpt_separator: <!--more-->
 ---
 <p>The task for this week was to build a Javascript front-end single page app framework. Ok, that doesn't sound too bad. Here's the catch - we weren't allowed to use any existing JS libraries. No Node, Express, jQuery, Jasmine, Mocha.... nothing! Eeek!</p>
-<p>Before we could even get started on the app, we needed to work out how we were going test our code. TDD is one the pillars of the Makers education after all. Despite using a string of testing libraries over the last few weeks, RSpec, Capybara, Jasmine, Mocha, Chai, I've never actually taken the time to look at the code and figure out how it works. So this is my attempt at breaking down a very elementary testing framework.</p>
 <p><!--more--></p>
+<p>Before we could even get started on the app, we needed to work out how we were going test our code. TDD is one the pillars of the Makers education after all. Despite using a string of testing libraries over the last few weeks, RSpec, Capybara, Jasmine, Mocha, Chai, I've never actually taken the time to look at the code and figure out how it works. So this is my attempt at breaking down a very elementary testing framework.</p>
 <p>This is what a typical Jasmine test looks like:</p>
 <pre><code>describe("A suite, function() {
   it("contains spec with an expectation", function() {

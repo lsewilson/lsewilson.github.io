@@ -13,26 +13,14 @@ tags:
 - Coffeescript
 - JavaScript
 - programming
-meta:
-  _wpcom_is_markdown: '1'
-  _rest_api_published: '1'
-  _rest_api_client_id: "-1"
-  _thumbnail_id: '1832'
-  _publicize_job_id: '27904661206'
-  _publicize_done_external: a:1:{s:7:"twitter";a:1:{i:15483048;s:60:"https://twitter.com/laura_wilson19/status/787690177502162944";}}
-  _publicize_done_15633698: '1'
-  _wpas_done_15483048: '1'
-  publicize_twitter_user: laura_wilson19
-author:
-  login: lsewilson
-  email: laurawilson@hotmail.co.uk
-  display_name: Laura
-  first_name: ''
-  last_name: ''
+excerpt_separator: <!--more-->
 ---
-<p>So you want to build an Atom package. Some aspects of Atom make this an absolute joy, but some resources on the internet are seriously lacking, and this is my attempt to summarise all of the things I found out and learnt about building an Atom package.</p>
-<p><!--more--></p>
-<p><span style="text-decoration:underline;"><strong>Helpful Resources</strong></span></p>
+So you want to build an Atom package. Some aspects of Atom make this an absolute joy, but some resources on the internet are seriously lacking, and this is my attempt to summarise all of the things I found out and learnt about building an Atom package.
+
+<!--more-->
+
+<span style="text-decoration:underline;">**Helpful Resources**</span>
+
 <ul>
 <li><a href="http://flight-manual.atom.io/hacking-atom/">Hacking Atom</a> - the package development guide in Atom's Flight Manual</li>
 <li><a href="https://atom.io/docs">Atom Docs</a> - helpful for navigating your way around Atom</li>
@@ -71,11 +59,14 @@ author:
 <p><span style="text-decoration:underline;"><strong>Accessing Dev Mode</strong></span></p>
 <p>You can access Dev Mode via the Developer menu, however you can also open up atom from the command line in dev mode using <code>$ atom -d</code> or <code>$ atom --dev</code>.</p>
 <p>If you haven't generated a package yourself, for example if you are making a pull request on an existing package, you can clone the package repo to your local system and link it to your dev mode manually.</p>
-<pre>$ git clone https://github.com/atom/image-view.git
+
+{% highlight shell %}
+$ git clone https://github.com/atom/image-view.git
 $ cd image-view
 $ apm link --dev . 
 $ apm unlink --dev .   (to uninstall from dev mode)
-$ apm unlink --dev --all (to unlink all local packages from dev mode)</pre>
+$ apm unlink --dev --all (to unlink all local packages from dev mode)
+{% endhighlight %}
 <p><span style="text-decoration:underline;"><strong>Publishing</strong></span></p>
 <p>So you're happy with where you are with your package, and now it's time to publish it. This is super straightforward.</p>
 <ol>

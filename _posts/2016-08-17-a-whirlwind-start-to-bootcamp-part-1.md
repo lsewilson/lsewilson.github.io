@@ -13,6 +13,8 @@ tags:
 - rectangle
 - TDD
 - test-driven development
+excerpt_separator: <!--more-->
+
 meta:
   _publicize_job_id: '25890339564'
   _rest_api_published: '1'

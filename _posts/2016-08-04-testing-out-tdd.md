@@ -6,6 +6,7 @@ type: post
 published: true
 status: publish
 categories: []
+excerpt_separator: <!--more-->
 tags:
 - coding
 - Ladies of Code

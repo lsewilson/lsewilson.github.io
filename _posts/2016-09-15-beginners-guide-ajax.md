@@ -10,6 +10,8 @@ tags:
 - AJAX
 - JavaScript
 - jQuery
+excerpt_separator: <!--more-->
+
 meta:
   _publicize_done_external: a:1:{s:7:"twitter";a:1:{i:15483048;s:60:"https://twitter.com/laura_wilson19/status/776417363289780224";}}
   _rest_api_published: '1'

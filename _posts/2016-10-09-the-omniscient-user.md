@@ -17,6 +17,8 @@ tags:
 - ruby-on-rails
 - users
 - web development
+excerpt_separator: <!--more-->
+
 meta:
   publicize_twitter_user: laura_wilson19
   _wpas_done_15483048: '1'

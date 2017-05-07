@@ -10,6 +10,8 @@ categories:
 - Precourse
 tags:
 - Interview
+excerpt_separator: <!--more-->
+
 meta:
   _rest_api_published: '1'
   _rest_api_client_id: "-1"

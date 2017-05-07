@@ -19,3 +19,7 @@ instagram_username: laurasewilson
 # Build settings
 markdown: kramdown
 post_dirs: false
+paginate: 5
+paginate_path: /blog/page/:num     
+gems:
+  - jekyll-paginate
