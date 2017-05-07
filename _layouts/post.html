@@ -14,9 +14,9 @@ layout: default
     
     <footer>
         {% if page.previous %}
-        <a href="{{ page.previous.url }}" class="post-prev">&larr; Previous post</a> {% endif %}
+        <a href="{{ page.previous.url }}" class="post-prev"><span class="icon fa-angle-left"/>  Previous post</a> {% endif %}
         {% if page.next %}
-        <a href="{{ page.next.url }}" class="post-next">Next post &rarr;</a> {% endif %}
+        <a href="{{ page.next.url }}" class="post-next">Next post  <span class="icon fa-angle-right"/></a> {% endif %}
     </footer>
 </article>
 
