@@ -13,7 +13,9 @@ Zopa, a London-based fintech company were the hosts, and the theme was "How can 
 <hr />
 <b>TIP 1: Don't be put off by the theme. </b>Instead, see it as an opportunity to learn something new. If it <em>really</em> doesn't float your boat, you can always attend as a spectator - that way you're not obliged to stick around.
 <hr />
-[caption id="attachment_1925" align="aligncenter" width="356"]<img class="alignnone size-full wp-image-1925" src="{{ site.baseurl }}/assets/hackathon.gif" alt="hackathon" width="356" height="190" /> There was also alcohol involved...[/caption]
+
+{% include image.html url="/assets/hackathon.gif" max-width="356px" alt="hackathon" caption="There was also alcohol involved..." %}
+
 Things kicked off at 5pm. After initial introductions, we were split up into pre-assigned teams. This was a fantastic idea by the organisers and ensured that each team had a mix of different skills. It would have been easy to form a team with my Makers graduate friends and be on familiar ground, but I loved being thrown in the deep end and working with a totally new group of people. It was also my first experience working with much more senior developers. Sure, I felt way out of my depth at points, so I just kept asking questions and at least I know more now than I would have if I hadn't gone.
 <hr />
 <b>TIP 2: Not all contributions are dependent on technical ability. </b>Get stuck in with the brainstorming, share your ideas and be willing to take on any task. I wish I had contributed more to tasks like the presentation. I think there were points when I recognised I wasn't being productive and should have either taken a break or switched up tasks.
@@ -23,13 +25,17 @@ Well... that was the plan. It didn't quite work out that way.
 <hr />
 <b>TIP 3: Plan well! </b>It was around 11pm when we realised that we wouldn't be able to access the Quidco API or the API of a similar alternative. We had had our suspicions early on, but these were only confirmed after a lot of researching and by then it was already quite late in the evening. While this wasn't the end of the world, it probably would have been a good idea to assess whether we were happy to focus on the front-end only and pitch with a non-functional, but super-slick-looking app, or whether it was time to pivot.
 <hr />
-[caption id="attachment_1939" align="aligncenter" width="300"]<img class="alignnone size-full wp-image-1939" src="{{ site.baseurl }}/assets/cat.gif" alt="cat" width="300" height="300" /> There was a lot of this... [/caption]
+
+{% include image.html url="/assets/cat.gif" max-width="300px" caption="There was a lot of this..." %}
+
 We decided to try and build a full stack app based on what we thought the API might return if we had access to it. And we decided to use Rails to get it up and running. This was probably an error to be honest, given I was the only person on the team who had recent experience with it. Luckily, there were people around who were willing to chip in when we did get stuck.
 <hr />
 <b>TIP 4: Make use of the expertise in the room. </b>Don't be afraid to ask your friend in another team for help, and be willing to return the favour. If other companies' APIs provided, chances are there are also employees from those companies around the room who understand them much better than you do.
 <hr />
 About 2 hours before the final whistle, we unfortunately had to bail on all our backend work because we couldn't get the Monzo API working with our Rails app and as I couldn't stay for the presentation, we wouldn't have had any laptops to present from on which the app would work! This comes back to planning well - half the team hadn't been able to install ruby and run the server from their laptops. We probably should have stuck to a stack which most people were comfortable with.
-[caption id="attachment_1877" align="aligncenter" width="4032"]<img class="alignnone size-full wp-image-1877" src="{{ site.baseurl }}/assets/img_9814.jpg" alt="img_9814" width="4032" height="3024" /> Team Stash hard at work![/caption]
+
+{% include image.html url="/assets/zopathon.jpg" max-width="403px" caption="Team stash hard at work!" %}
+
 All in all, I had an awesome time. I was knackered by the end of it, and gorged on way too much food, but it was a fantastic experience and I highly recommend going to one if you've never been to one before. But before I finish, here is one last tip...
 <hr />
 <b>TIP 5: Accept that this is no normal working scenario and EMBRACE IT! </b>Expect to have to make difficult decisions at silly o'clock in the morning when you're tired and groggy and your brain isn't be functioning properly anymore, but enjoy it. It's a  challenge and it's a laugh. HACKATHONS ARE NOT THE PLACE FOR NORMAL WORKING ROUTINES. For example, usually if I have to make a big decision or if I hit a massive road block, I like to stop what I'm doing and sleep on it before I continue with it. There just isn't the time for that in a hackathon, and accepting that means you can really start enjoying yourself.

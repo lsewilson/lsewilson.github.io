@@ -61,14 +61,16 @@ So you want to build an Atom package. Some aspects of Atom make this an absolute
 <p>You can access Dev Mode via the Developer menu, however you can also open up atom from the command line in dev mode using <code>$ atom -d</code> or <code>$ atom --dev</code>.</p>
 <p>If you haven't generated a package yourself, for example if you are making a pull request on an existing package, you can clone the package repo to your local system and link it to your dev mode manually.</p>
 
-{% highlight shell %}
+<pre>
 $ git clone https://github.com/atom/image-view.git
 $ cd image-view
 $ apm link --dev . 
 $ apm unlink --dev .   (to uninstall from dev mode)
 $ apm unlink --dev --all (to unlink all local packages from dev mode)
-{% endhighlight %}
+</pre>
+<br/>
 <p><span style="text-decoration:underline;"><strong>Publishing</strong></span></p>
+
 <p>So you're happy with where you are with your package, and now it's time to publish it. This is super straightforward.</p>
 <ol>
 <li><strong>Push/merge to the master branch on Github:</strong> Double check as well that the master branch is the default branch on your repo.</li>
