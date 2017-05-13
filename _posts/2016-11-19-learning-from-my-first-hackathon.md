@@ -2,6 +2,7 @@
 layout: post
 title: Learning from My First Hackathon 
 date: 2016-11-19 21:56:35.000000000 +00:00
+feature_image: /assets/zopathon-logo.png
 permalink: /:year/:month/:title
 excerpt_separator: <!--more-->
 ---

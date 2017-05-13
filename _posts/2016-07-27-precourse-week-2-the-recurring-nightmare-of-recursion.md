@@ -33,7 +33,7 @@ Yep, you can say that again. Of course it's hard to think recursively. I've been
 <!--more-->
 Our challenge this week was to complete chapters 9 - 14 of Chris Pine's 'Learn to Program'. We had been advised to work on each exercise for a maximum of 1 hour before checking the solutions at the back of the book. I was doing ok until chapter 10, where we had to construct our own sorting algorithm. EASY! Ruby has an in built sort method: <strong>.sort</strong>! Oh wait, we're not allowed to use it. Uh oh.
 Ok, so where do we start? I decided to plan out how I would do that manually, and then I would try and put it in to computer terms.
-<ol>
+<ol class="default">
 <li>Use .min to find the lowest value in the unsorted array, move it to a new array called 'sorted' and delete it from the unsorted array.</li>
 <li>Re-iterate process on the remaining elements in the unsorted array.</li>
 </ol>

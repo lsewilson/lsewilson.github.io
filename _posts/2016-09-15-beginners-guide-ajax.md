@@ -34,7 +34,7 @@ author:
 <blockquote><p>"AJAX is a way to have a 'conversation' with the server and display the results without reloading the page."</p></blockquote>
 <p><!--more--></p>
 <p><span style="text-decoration:underline;"><strong>Why is it useful?</strong></span></p>
-<ul>
+<ul class="default">
 <li>Allows separation of front-end and back-end code.</li>
 <li>The number of page transitions in a web application is reduced.</li>
 <li>Reduces the amount of uploaded and downloaded data on a page.</li>
@@ -42,7 +42,7 @@ author:
 </ul>
 <p><span style="text-decoration:underline;"><strong>How it works</strong></span></p>
 <p><img class="alignnone size-full wp-image-1183 aligncenter" src="{{ site.baseurl }}/assets/ajax_diagram.png" alt="ajax_diagram" width="458" height="521" /></p>
-<ol>
+<ol class="default">
 <li>Initiate an HTTP request to a server by inputting the url of the website you're visiting, e.g. google.com. Page loads when response is received from the server.</li>
 <li>Event triggered on client-side - e.g. a user starts typing a search.</li>
 <li>AJAX call fired: XML HTTP request sent to server.</li>
@@ -53,7 +53,7 @@ author:
 <p><span style="text-decoration:underline;"><strong>Sample AJAX  function with jQuery</strong></span></p>
 <p><img class="alignnone size-full wp-image-1194 aligncenter" src="{{ site.baseurl }}/assets/ajax_example.png" alt="ajax_example" width="555" height="359" /></p>
 <p><span style="text-decoration:underline;"><strong>Disadvantages of AJAX and single page applications</strong></span></p>
-<ul>
+<ul class="default">
 <li>Data loss - in a basic SPA (single page application), your viewing history is not stored like your browser history.</li>
 <li>The browser bookmarking, back and refresh functions are useless.</li>
 <li>More difficult for search engines to crawl.</li>

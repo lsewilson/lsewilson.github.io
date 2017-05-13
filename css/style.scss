@@ -3,6 +3,7 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,900");
 @import "colours";
+@import "typography";
 
 /*
 	Twenty by HTML5 UP
@@ -247,10 +248,10 @@
 	.image {
 		border: 0;
 		position: relative;
-	}
 
-		.image:before {
-			background: url("images/overlay.png");
+		&:before {
+			// background: url("images/overlay.png");
+			background-color: inherit;
 			content: '';
 			height: 100%;
 			left: 0;
@@ -259,36 +260,40 @@
 			width: 100%;
 		}
 
-		.image.fit {
+		&.fit {
 			display: block;
-		}
 
-			.image.fit img {
+			img {
 				display: block;
 				width: 100%;
 			}
+		}
 
-		.image.featured {
+
+		&.featured {
 			display: block;
 			margin: 0 0 2em 0;
-		}
 
-			.image.featured img {
+			img {
 				display: block;
 				width: 100%;
 			}
-		.image.text {
+		}
+
+		&.text {
 			color: $grey;
 			border: 0;
 		}
 	
-		.image-centered {
+		&.medium {
 			text-align: center;
 		}
 
-		.image-caption {
+		&.caption {
 			margin-bottom: 1em;
 		}
+	}
+
 
 /* Icon */
 
@@ -411,6 +416,7 @@
 
 	ul.default {
 		list-style: disc;
+		// list-style: disc;
 		padding-left: 1em;
 
 		li {

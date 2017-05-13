@@ -31,7 +31,7 @@ author:
 <p><!--more--></p>
 <p><strong><span style="text-decoration:underline;">What do I mean by CRUD?</span></strong></p>
 <p>There are four things we need to be able to do to our data that we want to store in our database or to data that is already sitting in our database.</p>
-<ul>
+<ul class="default">
 <li><strong>Create </strong>new entries</li>
 <li><strong>Read </strong>existing entries</li>
 <li><strong>Update</strong> existing entries</li>
