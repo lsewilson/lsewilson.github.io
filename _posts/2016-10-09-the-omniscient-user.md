@@ -2,7 +2,7 @@
 layout: post
 title: The Omniscient User
 date: 2016-10-09 19:53:32.000000000 +01:00
-feature_image: /assets/dumbledore.png
+feature_image: /assets/omniscient-user.png
 type: post
 published: true
 status: publish
@@ -19,10 +19,9 @@ tags:
 - ruby-on-rails
 - users
 - web development
-excerpt_separator: <!--more-->
+excerpt: How do you create an admin user in Rails? How much power should an admin really have? This week at Makers Academy, we're introduced to Rails.
 ---
 <p>This week we were introduced to Ruby on Rails! The magical steam train! The web app framework that you can have up and running in no time! In my makers journey so far, it's probably the closest to magic that I've seen. You wave your wand and hey presto! It's done a bazillion things for you already. Dare I say that was exactly what I didn't like about it to begin with. I felt like I didn't have to do any thinking. I came to realise however that the advantage of Rails is not in finding satisfaction in difficult debugging and planning, but in being able to put together a project quickly and accomplish more in a shorter time frame as a result.</p>
-<p><!--more--></p>
 <p>Our task this week was to create a simpler version of Yelp. For it, we needed three models: Users, Restaurants and Reviews, and these were all associated with each other.</p>
 <ol class="default">
 <li>Users could have many restaurants and reviews.</li>

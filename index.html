@@ -10,25 +10,33 @@ layout: landing-page
 						<header class="major">
 							<h2>Latest <strong>Posts</strong></h2>
 						</header>
-						
+
 							<div class="row">
 							{% for post in site.posts limit: 2 %}
 								{% assign post = site.posts.first %}
-								{% assign content = post.excerpt %}
+								{% if post.summary %}
+									{% assign content = post.summary %}
+								{% elsif post.excerpt %}
+									{% assign content = post.excerpt %}
+								{% endif %}
 								{% include post-detail.html %}
 							{% endfor %}
 							</div>
 							<div class="row">
 							{% for post in site.posts limit: 2 offset: 2 %}
 								{% assign post = site.posts.first %}
-								{% assign content = post.excerpt %}
+								{% if post.summary %}
+									{% assign content = post.summary %}
+								{% elsif post.excerpt %}
+									{% assign content = post.excerpt %}
+								{% endif %}
 								{% include post-detail.html %}
 							{% endfor %}
 							</div>
 
 						<footer class="major">
 							<ul class="buttons">
-								<li><a href="/blog" class="button">See More</a></li>
+								<li><a href="/blog" class="button">See more</a></li>
 							</ul>
 						</footer>
 					
