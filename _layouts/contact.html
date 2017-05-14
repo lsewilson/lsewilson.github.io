@@ -19,24 +19,26 @@
 					<section class="wrapper style4 special container small">
 						<!-- Content -->
 							<div class="content">
-								<form action="{{site.form_submission}}" method="post" accept-charset="UTF-8">
+								<form id="contact-form" action="//flipmail.co/api/Wa9gBfKy4MbO7JvOeLP2" method="post">
+									<span id="contact-success">Message sent!</span>
 									<div class="row half collapse-at-2">
-										<input id="honeypot" name="honeypot" />
+										<input class="honeypot" id="honeypot-one" name="honeypot-blank" value=""/>
+										<input class="honeypot" id="honeypot-two" name="honeypot-email" value="honeypot@mail.com"/>
 										<div class="6u">
-											<input type="text" name="name" placeholder="Name" />
+											<input id="contact-name" type="text" name="name" placeholder="Name" required/>
 										</div>
 										<div class="6u">
-											<input type="email" name="email" placeholder="Email" />
+											<input id="contact-email" type="email" name="email" placeholder="Email" required/>
 										</div>
 									</div>
 									<div class="row half">
 										<div class="12u">
-											<input type="text" name="subject" placeholder="Subject" />
+											<input id="contact-subject" type="text" name="subject" placeholder="Subject" />
 										</div>
 									</div>
 									<div class="row half">
 										<div class="12u">
-											<textarea name="message" placeholder="Message" rows="7"></textarea>
+											<textarea id="contact-message" name="message" placeholder="Message" rows="7" required></textarea>
 										</div>
 									</div>
 									<div class="row">
