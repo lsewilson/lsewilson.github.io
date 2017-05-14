@@ -17,9 +17,6 @@
     <script src="{{ site.url }}/js/skel.min.js"></script>
     <script src="{{ site.url }}/js/skel-layers.min.js"></script>
     <script src="{{ site.url }}/js/init.js"></script>
-    {% if site.ga_tracking and jekyll.environment == "production" %}
-        {% include analytics.html %}
-    {% endif %}
     <noscript>
         <link rel="stylesheet" href="{{ site.url }}/css/skel.css" />
         <link rel="stylesheet" href="{{ site.url }}/css/style.css" />
@@ -29,6 +26,8 @@
     <!--[if lte IE 8]><link rel="stylesheet" href="/css/ie/v8.css" /><![endif]-->
     <!--[if lte IE 9]><link rel="stylesheet" href="/css/ie/v9.css" /><![endif]-->
     <meta name="viewport" content="width=device-width">
-
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    {% if jekyll.environment == 'production' and site.google_analytics %}
+        {% include analytics.html %}
+    {% endif %}
 </head>

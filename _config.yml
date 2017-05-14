@@ -8,7 +8,7 @@ author:
   bio: I'm a woman in tech, sometimes Codebar coach, and lover of good coffee
   avatar: /assets/profile.png
 email: ""
-ga_tracking: UA-99146516-1
+google_analytics: UA-99146516-1
 description: Laura Wilson - Web Developer. Portfolio and Blog.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://lsewilson.github.io" # the base hostname & protocol for your site
