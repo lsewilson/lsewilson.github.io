@@ -4,7 +4,7 @@ title: Getting Started with Jekyll
 date: 2017-05-12 18:56:35.000000000 +00:00
 feature_image: /assets/jekyll-octocat.jpg
 permalink: /:year/:month/:title
-excerpt: I switched from Wordpress to Jekyll. It wasn't the easiest or most straightforward thing to do, but it was worth it and I've written up a guide for other Jekyll newbies!
+excerpt: <p>I switched from Wordpress to Jekyll. It wasn't the easiest or most straightforward thing to do, but it was worth it and I've written up a guide for other Jekyll newbies!</p>
 ---
 
 When I initially started blogging, I started up on Wordpress. Using a CMS was a great way of getting started, and it did the job while I was still learning to code at Makers Academy. However, since finishing the course and starting my new job at Movebubble, I decided I wanted to freshen up the design and have more control over how the site was organised. To balance out my desire to have more control over design and the speed with which I wanted to get up and running, I decided to use Jekyll. If you aren't very familiar with HTML, CSS or Git, I would recommend taking a look at some of the free tutorials available on the internet on sites such as Codecademy before getting started with Jekyll. 
@@ -129,7 +129,9 @@ It's important to prefix your references with {% raw %}{{ site.url }}{% endraw %
 
 <strong>Time to Deploy!</strong>
 
-GitHub pages is a fantastic tool for this. It's free and as long as you follow the instructions, getting your site live is a breeze. 
+I would recommend deploying early, even if you're not entirely happy with the design of your site. It doesn't matter if it's a work in progress and it doesn't have to be perfect. Once you've set it up with your git workflow, you can make iterative changes whenever you like! 
+
+I like GitHub pages for hosting. It's the recommended one for Jekyll sites and it's fantastic. It's free and if you follow the instructions, getting your site live is a breeze. 
 
 If you haven't already, create a new repository on your GitHub account in the format your-github-username.github.io. It doesn't matter if you will be using a custom domain name as you can always redirect here, but to the repository name is non-negotiable.
 
