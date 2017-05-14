@@ -3,6 +3,7 @@ layout: post
 title: 'PreCourse Week 4: Pre-pair-ing for Bootcamp'
 date: 2016-08-14 15:27:06.000000000 +01:00
 type: post
+permalink: /:year/:month/:title
 published: true
 status: publish
 categories:

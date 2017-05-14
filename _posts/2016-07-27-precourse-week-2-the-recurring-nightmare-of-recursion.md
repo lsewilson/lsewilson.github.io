@@ -3,6 +3,7 @@ layout: post
 title: 'PreCourse Week 2: The Recurring Nightmare of Recursion'
 date: 2016-07-27 14:05:27.000000000 +01:00
 type: post
+permalink: /:year/:month/:title
 published: true
 status: publish
 categories:

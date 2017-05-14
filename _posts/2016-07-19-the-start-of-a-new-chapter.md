@@ -2,7 +2,7 @@
 layout: post
 title: The Start of a New Chapter
 date: 2016-07-19 15:54:37.000000000 +01:00
-permalink: /the-start-of-a-new-chapter.html
+permalink: /:year/:month/:title
 excerpt_separator: <!--more-->
 ---
 

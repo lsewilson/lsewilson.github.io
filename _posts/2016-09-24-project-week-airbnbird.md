@@ -2,6 +2,7 @@
 layout: post
 title: 'Project week: AirBnBird'
 date: 2016-09-24 13:54:03.000000000 +01:00
+permalink: /:year/:month/:title
 type: post
 published: true
 status: publish

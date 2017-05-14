@@ -3,6 +3,7 @@ layout: post
 title: All things CRUD
 date: 2016-09-05 21:39:19.000000000 +01:00
 type: post
+permalink: /:year/:month/:title
 published: true
 status: publish
 categories:

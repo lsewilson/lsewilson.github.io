@@ -3,6 +3,7 @@ layout: post
 title: A Retrospective Look at the Interview and Precourse
 date: 2016-09-14 05:06:43.000000000 +01:00
 type: post
+permalink: /:year/:month/:title
 published: true
 status: publish
 categories:

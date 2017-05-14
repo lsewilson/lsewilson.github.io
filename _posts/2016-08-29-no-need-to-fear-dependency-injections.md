@@ -3,6 +3,7 @@ layout: post
 title: No Need to Fear (Dependency) Injections
 date: 2016-08-29 22:45:51.000000000 +01:00
 type: post
+permalink: /:year/:month/:title
 published: true
 status: publish
 categories:

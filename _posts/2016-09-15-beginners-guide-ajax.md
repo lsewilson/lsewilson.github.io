@@ -3,6 +3,7 @@ layout: post
 title: A Beginner's Guide to AJAX
 date: 2016-09-15 13:48:17.000000000 +01:00
 type: post
+permalink: /:year/:month/:title
 published: true
 status: publish
 categories: []

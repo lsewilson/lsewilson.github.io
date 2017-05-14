@@ -3,6 +3,7 @@ layout: post
 title: A Whirlwind Start to Bootcamp Part 1
 date: 2016-08-17 23:12:20.000000000 +01:00
 type: post
+permalink: /:year/:month/:title
 published: true
 status: publish
 categories:

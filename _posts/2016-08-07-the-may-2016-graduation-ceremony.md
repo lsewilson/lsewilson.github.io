@@ -3,6 +3,7 @@ layout: post
 title: The May 2016 Graduation Ceremony
 date: 2016-08-07 14:49:49.000000000 +01:00
 type: post
+permalink: /:year/:month/:title
 published: true
 status: publish
 categories:

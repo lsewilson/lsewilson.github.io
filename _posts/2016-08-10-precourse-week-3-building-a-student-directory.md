@@ -3,6 +3,7 @@ layout: post
 title: 'PreCourse Week 3: Building a Student Directory'
 date: 2016-08-10 15:51:03.000000000 +01:00
 type: post
+permalink: /:year/:month/:title
 published: true
 status: publish
 categories:

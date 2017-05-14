@@ -3,6 +3,7 @@ layout: post
 title: How to write a testing framework
 date: 2016-09-27 21:34:44.000000000 +01:00
 feature_image: /assets/blobfish_featured.png
+permalink: /:year/:month/:title
 type: post
 published: true
 status: publish

@@ -3,6 +3,7 @@ layout: post
 title: 'PreCourse Week 1: Getting to grips with Git'
 date: 2016-07-22 09:42:27.000000000 +01:00
 type: post
+permalink: /:year/:month/:title
 published: true
 status: publish
 categories:

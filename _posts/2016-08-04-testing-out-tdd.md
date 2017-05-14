@@ -3,6 +3,7 @@ layout: post
 title: Testing out TDD
 date: 2016-08-04 11:36:14.000000000 +01:00
 type: post
+permalink: /:year/:month/:title
 published: true
 status: publish
 categories: []
