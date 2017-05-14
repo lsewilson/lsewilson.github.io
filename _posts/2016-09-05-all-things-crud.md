@@ -16,42 +16,38 @@ tags:
 - SQL
 - web development
 excerpt_separator: <!--more-->
-
-meta:
-  _rest_api_published: '1'
-  _rest_api_client_id: "-1"
-  _publicize_job_id: '26521158253'
-author:
-  login: lsewilson
-  email: laurawilson@hotmail.co.uk
-  display_name: Laura
-  first_name: ''
-  last_name: ''
 ---
-<p>CRUD stands for Create, Read, Update and Delete and these four functions make up the basis of persistent storage in the land of computers. By storing a state as data, we can ensure that this state will remain even if the process that created it does not. For example, I developed a web app at the weekend where you could play rock, paper, scissors, and I used a singleton class to store my game. As soon as I stop running the app though, that data vanishes. I can't recall the game history. It's gone and that's not ok. There's an obvious need to store information. This is where CRUD comes in.</p>
-<p><!--more--></p>
-<p><strong><span style="text-decoration:underline;">What do I mean by CRUD?</span></strong></p>
-<p>There are four things we need to be able to do to our data that we want to store in our database or to data that is already sitting in our database.</p>
+
+CRUD stands for Create, Read, Update and Delete and these four functions make up the basis of persistent storage in the land of computers. By storing a state as data, we can ensure that this state will remain even if the process that created it does not. For example, I developed a web app at the weekend where you could play rock, paper, scissors, and I used a singleton class to store my game. As soon as I stop running the app though, that data vanishes. I can't recall the game history. It's gone and that's not ok. There's an obvious need to store information. This is where CRUD comes in.
+
+<!--more-->
+
+<strong><span style="text-decoration:underline;">What do I mean by CRUD?</span></strong>
+
+There are four things we need to be able to do to our data that we want to store in our database or to data that is already sitting in our database.
 <ul class="default">
 <li><strong>Create </strong>new entries</li>
 <li><strong>Read </strong>existing entries</li>
 <li><strong>Update</strong> existing entries</li>
 <li><strong>Delete</strong> existing entries</li>
 </ul>
-<p><strong><span style="text-decoration:underline;">What is SQL?</span></strong></p>
-<p>SQL, pronounced 'sequel', or Standard Query Language, is a programming language used to communicate with databases. As a result, it has functions which satisfy all CRUD elements.</p>
-<p>This table nicely summarises the equivalent syntax in SQL and HTTP.</p>
+
+<strong><span style="text-decoration:underline;">What is SQL?</span></strong>
+
+SQL, pronounced 'sequel', or Standard Query Language, is a programming language used to communicate with databases. As a result, it has functions which satisfy all CRUD elements.
+
+This table nicely summarises the equivalent syntax in SQL and HTTP.
 <table>
 <tbody>
 <tr>
-<td style="text-align:center;">
+<td>
 <div><u><b>Function</b></u></div>
 </td>
-<td style="text-align:center;">
+<td>
 <div><u><b>SQL </b></u></div>
 </td>
 <td>
-<div style="text-align:center;"><u><b>HTTP</b></u></div>
+<div><u><b>HTTP</b></u></div>
 </td>
 </tr>
 <tr>
@@ -143,7 +139,8 @@ author:
 <span class="pl-k">VALUES</span> ( <span class="pl-s"><span class="pl-pds">'Pascal</span><span class="pl-pds">', 'Chameleon', 'Rapunzel', 'Hidden Tower'</span></span>);</pre>
 </div>
 <div></div>
-<p>Now let's read our updated table, using * to select all entries:</p>
+
+Now let's read our updated table, using * to select all entries:
 <pre><span class="pl-k">SELECT</span> <span class="pl-k">*</span> <span class="pl-k">FROM</span> patients;</pre>
 <table>
 <tbody>
@@ -184,9 +181,11 @@ author:
 </tr>
 </tbody>
 </table>
-<p>Let's update one of our entries:</p>
+
+Let's update one of our entries:
 <pre><span class="pl-k">UPDATE</span> <span class="pl-s"><span class="pl-pds">"patients</span><span class="pl-pds">"</span></span> <span class="pl-k">SET</span> PetName<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">'Snowball II</span><span class="pl-pds">', PetType='Cat'</span></span> <span class="pl-k">WHERE</span> ID <span class="pl-k">=</span> 3;</pre>
-<p>This gives us:</p>
+
+This gives us:
 <table>
 <tbody>
 <tr>
@@ -226,7 +225,8 @@ author:
 </tr>
 </tbody>
 </table>
-<p>And finally let's delete an entry:</p>
+
+And finally let's delete an entry:
 <pre><span class="pl-k">DELETE</span> <span class="pl-k">FROM</span> <span class="pl-s"><span class="pl-pds">"patients</span><span class="pl-pds">"</span></span> <span class="pl-k">WHERE</span> PetID <span class="pl-k">=</span> <span class="pl-c1">1</span>;</pre>
 <table>
 <tbody>
@@ -260,4 +260,5 @@ author:
 </tr>
 </tbody>
 </table>
-<p>And there we have it - a brief introduction to CRUD and SQL!</p>
+
+And there we have it - a brief introduction to CRUD and SQL!
