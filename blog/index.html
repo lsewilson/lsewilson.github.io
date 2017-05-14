@@ -24,7 +24,6 @@ paginate: true
         </ul>
     </section>
     <section id="pagination" >
-
         {% if paginator.previous_page %}
             <a href="{{ paginator.previous_page_path }}"><span class="icon fa-angle-left"></span></a>
         {% else %}
@@ -37,7 +36,6 @@ paginate: true
             <a href="{{ paginator.next_page_path }}"><span class="icon fa-angle-right"></span></a>
         {% else %}
             <span class="icon fa-angle-right" style="color: transparent" ></span>
-        {% endif %}
-               
+        {% endif %}          
     </section>
 </article>
