@@ -17,16 +17,16 @@
 					
 				<!-- One -->
 					<section class="wrapper style4 special container small">
-					
 						<!-- Content -->
 							<div class="content">
-								<form>
+								<form action="{{site.form_submission}}" method="post" accept-charset="UTF-8">
 									<div class="row half collapse-at-2">
+										<input id="honeypot" name="honeypot" />
 										<div class="6u">
 											<input type="text" name="name" placeholder="Name" />
 										</div>
 										<div class="6u">
-											<input type="text" name="email" placeholder="Email" />
+											<input type="email" name="email" placeholder="Email" />
 										</div>
 									</div>
 									<div class="row half">
