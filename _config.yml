@@ -2,14 +2,14 @@
 title: Laura Wilson
 author: 
   name: Laura Wilson
-  job: Web Developer 
+  job: Web Developer
   other_job: Blogger
-  current_employer: Movebubble
+  subtitle: Available to speak at events
   bio: I'm a woman in tech, sometimes Codebar coach, and lover of good coffee
   avatar: /assets/profile.png
 email: ""
 google_analytics: UA-99146516-1
-form_submission: http://flipmail.co/api/Wa9gBfKy4MbO7JvOeLP2
+form_submission: https://flipmail.co/api/Wa9gBfKy4MbO7JvOeLP2
 description: Laura Wilson - Web Developer. Portfolio and Blog.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://lsewilson.github.io" # the base hostname & protocol for your site
